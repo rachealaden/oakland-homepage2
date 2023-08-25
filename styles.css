@@ -1,0 +1,87 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    background-image: url("images/oaklandport.jpg");
+    background-size: cover;
+    padding: 120px 180px 130px 180px;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px black;
+}
+
+#hero-title {
+    background: #457B9D;
+    border-radius: 10px;
+    padding: 5px 12px;
+    margin-bottom: 0px;
+}
+
+#hero-subheader {
+    background: #1D3557;
+    border-radius: 10px;
+    padding: 8px 30px;
+    margin-top: 10px;
+}
+
+#hero:hover {
+    background-image: url("https://media.giphy.com/media/MhiHxmlxTCNHvxNUty/giphy-downsized-large.gif");
+}
+
+#activities {
+    color: #162b36;
+    background: #92a7be;
+    padding: 40px 140px;
+    text-shadow: 0px 0px 1px black;
+}
+
+#activity-info {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.activity-img {
+    border-radius: 50%;
+    height: 100px;
+    box-shadow: 0px 0px 4px black;
+}
+
+#guide {
+    margin: 50px 160px;
+    background-image: url("images/baybridge.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    border: 6px solid #92a7be;
+    color: #ffffff;
+    text-shadow: 1px 3px 2px black;
+    padding: 25px 15px;
+    display: flex;
+}
+
+#quote {
+    font-style: italic;
+    background: #92a7be;
+    border-radius: 5px;
+}
+
+#avatar {
+    height: 200px;
+    width: 200px;
+    border-radius: 3%;
+}
